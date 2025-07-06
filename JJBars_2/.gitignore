@@ -5,6 +5,7 @@ node_modules/
 
 # Expo
 .expo/
+.expo-shared/
 dist/
 web-build/
 expo-env.d.ts
@@ -35,3 +36,57 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# API Keys und Secrets
+app/config/ApiKey.js
+
+# Build outputs
+build/
+*.tgz
+*.tar.gz
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs
+*.log
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary folders
+tmp/
+temp/
+.tmp/
+.temp/
+
+# iOS
+ios/build/
+ios/Pods/
+ios/*.xcworkspace/xcuserdata/
+ios/*.xcodeproj/xcuserdata/
+
+# Android
+android/app/build/
+android/.gradle/
+android/local.properties
